@@ -17,7 +17,7 @@
   </div>
 
   <div class="actions">
-    <input type="submit" value="Update Books" />
+    <input type="submit" value="Update" />
   </div>
 
 </form>

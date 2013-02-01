@@ -11,7 +11,7 @@
       </ul>
     </div>
   <% end %>
-  <fieldset style="border:"50"">
+  <fieldset border="50">
   <div class="field">
     <%= f.label :title %><br />
     <%= f.text_field :title %>

@@ -4,5 +4,5 @@
 
 fieldset
 {
-      border: 0.5em double;
+      color: blue;border: 0.5em double;
 }

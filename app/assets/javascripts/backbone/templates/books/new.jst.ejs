@@ -10,11 +10,12 @@
     <label for="author"> author:</label>
     <input type="text" name="author" id="author" value="<%= author %>" >
   </div>
-
-  <div class="field">
-    <label for="status"> status:</label>
-    <input type="text" name="status" id="status" value="<%= status %>" >
-  </div>
+  
+  <select class="dropdown"  >
+     <label for="status" name="status" id="status" value="<%= status %>"> status:</label>
+     <option value="read">Read</option>
+     <option value="unread">Unread</option>
+  </select>
 
   <div class="actions">
     <input type="submit" value="Create Books" />
